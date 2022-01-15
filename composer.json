@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "SimpleWcAdminReportsExtenderPlugin\\": "plugin/",
+            "SimpleWcAdminReportsExtenderPlugin\\Includes\\": "plugin/Includes",
+            "SimpleWcAdminReportsExtenderPlugin\\Admin\\": "plugin/Admin",
+            "SimpleWcAdminReportsExtenderPlugin\\Frontend\\": "plugin/Frontend"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "simple-wc-admin-reports-extender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "watch": "webpack watch --mode development",
+    "build": "webpack --mode development",
+    "build:prod": "webpack --mode production && gulp bundle"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "gulp-zip": "^5.1.0",
+    "gulp": "^4.0.2",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.7.0",
+    "webpack": "^5.38.1"
+  }
+}
